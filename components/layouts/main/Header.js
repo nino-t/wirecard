@@ -36,7 +36,7 @@ export default class Header extends React.Component {
 							</a>
 						</div>
 
-						<div className="collapse navbar-collapse">
+						<div className="collapse navbar-collapse hidden-xs">
 							<ul className="nav navbar-nav navbar-right">
 								<li>
 									<a href="#">
