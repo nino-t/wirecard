@@ -1,0 +1,264 @@
+{		
+	"id":"1",
+	"name": "Jeremy Brown",
+	"emai": "jeremy.brown@gmail.com",
+	"task":[
+		{
+			"id": "1",
+			"title": "Make timeline for tommorow",
+			"description": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.", 
+			"status": "FINISH"
+		},
+		{
+			"id": "2",
+			"title": "Do the starting job",
+			"description": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.", 
+			"status": "DOING"
+		}		
+	],
+	"notification":[
+		{
+			"id": "1",
+			"notif_to": "Jeremy Brown",
+			"notif_from": "Trisno Nino",
+			"message": "Hi",
+			"read_at": "2018-07-01"
+		},
+		{
+			"id": "2",
+			"notif_to": "Jeremy Brown",
+			"notif_from": "Trisno Nino",
+			"message": "How are you?"
+		}		
+	],
+	"receivables":[
+		{
+			"id": "1",
+			"description": "INV101 - PT.ABC",
+			"amount": "50000000",
+			"currency": "IDR",
+			"due": "21-Jan-14",
+			"expire": "true"
+		},
+		{
+			"id": "2",
+			"description": "INV039 - Corporate ltd",
+			"amount": "1000",
+			"currency": "USD",
+			"due": "1-Mar-14",
+			"expire": "true"
+		},
+		{
+			"id": "3",
+			"description": "INV141 - PT.Company Indonesia",
+			"amount": "89000000",
+			"currency": "IDR",
+			"due": "2-Mei-15",
+			"expire": "true"
+		},
+		{
+			"id": "4",
+			"description": "INV501 - PT.Suara Pemuda",
+			"amount": "90000000",
+			"currency": "IDR",
+			"due": "2-Feb-18"
+		},
+		{
+			"id": "5",
+			"description": "INV803 - Autodebit",
+			"amount": "3000",
+			"currency": "USD",
+			"due": "12-Nov-18"
+		}								
+	],
+	"payables":[
+		{
+			"id": "1",
+			"description": "INV101 - Invoice",
+			"beneficiary": "PT.ABCD",
+			"amount": "30000000",
+			"currency": "IDR",
+			"due": "2018-01-02"
+		},
+		{
+			"id": "2",
+			"description": "INV102 - Bill Payment",
+			"beneficiary": "Tsuki Studio",
+			"amount": "2500",
+			"currency": "USD",
+			"due": "2018-02-01"
+		},
+		{
+			"id": "3",
+			"description": "INV200 - Bill Payment",
+			"beneficiary": "Destine Digital",
+			"amount": "50000000",
+			"currency": "IDR",
+			"due": "2018-03-10"
+		},
+		{
+			"id": "4",
+			"description": "INV201 - Tax Payment",
+			"beneficiary": "Design Netral",
+			"amount": "50000000",
+			"currency": "IDR",
+			"due": "2018-04-12"
+		},
+		{
+			"id": "5",
+			"description": "INV201 - Tax Payment",
+			"beneficiary": "Hitpay",
+			"amount": "70000000",
+			"currency": "IDR",
+			"due": "2018-05-22"
+		}						
+	],
+	"profit_and_loss":{
+		"profit": [
+			{
+				"id": "1",
+				"amount": "200000",	
+				"month": "Sep-13"
+			},
+			{
+				"id": "2",
+				"amount": "250000",	
+				"month": "Oct-13"
+			},
+			{
+				"id": "3",
+				"amount": "270000",	
+				"month": "Nov-13"
+			},
+			{
+				"id": "4",
+				"amount": "320000",	
+				"month": "Dec-13"
+			},
+			{
+				"id": "5",
+				"amount": "190000",	
+				"month": "Jan-14"
+			},
+			{
+				"id": "6",
+				"amount": "310000",	
+				"month": "Feb-14"
+			}
+		],
+		"loss": [
+			{
+				"id": "7",
+				"amount": "300000",	
+				"type": "OUT",
+				"month": "Sep-13"
+			},
+			{
+				"id": "8",
+				"amount": "150000",	
+				"type": "OUT",
+				"month": "Oct-13"
+			},
+			{
+				"id": "9",
+				"amount": "210000",	
+				"month": "Nov-13"
+			},
+			{
+				"id": "10",
+				"amount": "130000",	
+				"month": "Dec-13"
+			},
+			{
+				"id": "11",
+				"amount": "300000",	
+				"month": "Jan-14"
+			},
+			{
+				"id": "12",
+				"amount": "240000",	
+				"month": "Feb-14"
+			}			
+		]
+	},
+	"forex_rate":[
+		{
+			"id": "1",
+			"currency": "USD",	
+			"buy": "115200.00",
+			"sell": "114900.00"
+		},
+		{
+			"id": "2",
+			"currency": "SGD",	
+			"buy": "9213.65",
+			"sell": "9179.65"
+		},
+		{
+			"id": "3",
+			"currency": "EUR",	
+			"buy": "15773.89",
+			"sell": "15.673.89"
+		},
+		{
+			"id": "4",
+			"currency": "AUD",	
+			"buy": "10691.33",
+			"sell": "10611.33"
+		},
+		{
+			"id": "5",
+			"currency": "JPY",	
+			"buy": "114.57",
+			"sell": "111.67"
+		},
+		{
+			"id": "6",
+			"currency": "MYR",	
+			"buy": "13000.00",
+			"sell": "12500.00"
+		}
+	],
+	"assets":[
+		{
+			"name": "My Bank",
+			"amount": "80000000",
+			"currency": "IDR",	
+			"total_account": "35",
+			"rincian": [
+				{
+					"name": "Current",
+					"total_account": "28"
+				},
+				{
+					"name": "Saving",
+					"total_account": "5"
+				},
+				{
+					"name": "Time Deposit",
+					"total_account": "2"
+				}							
+			]
+		},
+		{
+			"name": "External Bank",
+			"amount": "30000000",
+			"currency": "IDR",	
+			"total_account": "5"
+		}		
+	],
+	"liabilities":[
+		{
+			"name": "Loan",
+			"total_account": "2",
+			"amount": "400000000.00",
+			"currency": "IDR"
+		},
+		{
+			"name": "Credit Card",
+			"total_account": "5",
+			"amount": "50000000.00",
+			"currency": "IDR"
+		}	
+	]	
+}
